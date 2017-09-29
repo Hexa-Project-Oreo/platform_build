@@ -610,7 +610,7 @@ function lunch()
 	
     if [ $? -ne 0 ]
     then
-        # if we can't find a product, try to grab it off the LineageOS GitHub
+        # if we can't find a product, try to grab it off the Hexa-Project GitHub
         T=$(gettop)
         cd $T > /dev/null
         build/tools/roomservice.py $product
