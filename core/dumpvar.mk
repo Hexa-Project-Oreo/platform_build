@@ -24,7 +24,8 @@ print_build_config_vars := \
   HOST_BUILD_TYPE \
   BUILD_ID \
   OUT_DIR \
-  AUX_OS_VARIANT_LIST
+  AUX_OS_VARIANT_LIST \
+  CUSTOM_BUILD
 
 ifeq ($(TARGET_BUILD_PDK),true)
 print_build_config_vars += \
